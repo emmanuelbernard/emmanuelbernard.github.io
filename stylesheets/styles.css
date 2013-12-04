@@ -1,0 +1,378 @@
+/* line 12, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+.equalHero .btn {
+  border-radius: 4px 4px 4px 4px !important;
+}
+
+/* line 20, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+body {
+  font-size: 100%;
+}
+
+/* line 24, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+h1 {
+  margin-bottom: 1em;
+}
+
+/* line 29, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+h2, h3 {
+  margin-top: 1em;
+}
+
+/* line 33, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+.center-icon {
+  text-align: center;
+}
+
+/* line 37, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+code, pre {
+  font-size: 85%;
+  color: #656565;
+}
+
+/* line 42, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+pre > code {
+  font-size: 100%;
+}
+
+/* line 47, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+.navbar {
+  z-index: 1000;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+/* line 54, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+.dropup {
+  background-image: url("http://static.jboss.org/theme/images/common/redhat_logo.png");
+  background-repeat: no-repeat;
+  background-position: 37px 0;
+  right: 42px;
+  width: 145px;
+}
+
+/* line 64, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+a.nav > img {
+  position: relative;
+  top: 4px;
+}
+
+/* line 69, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+.navbar .nav > li {
+  font-weight: bold;
+}
+
+/* line 74, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+.navbar .nav > li > a {
+  padding: 13px 10px;
+}
+
+/* line 81, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+.mantra {
+  font-weight: bold;
+  font-size: 150%;
+}
+
+/* line 88, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+#myCarousel {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+/* line 93, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+#myCarousel ol {
+  display: none;
+}
+
+/* line 99, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+.project-menu {
+  overflow: hidden;
+}
+
+/* line 102, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+.project-menu-title {
+  font-size: 200%;
+  margin-bottom: .5em;
+}
+
+/* line 107, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+.hero-button {
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+/* line 113, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+.hero-unit {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  /* line 121, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+  .menu-icon {
+    display: none !important;
+  }
+}
+/* line 127, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+.nav-list > li > a, .nav-list .nav-header {
+  color: #656565;
+}
+
+/* line 131, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+.nav-list > .active > a, .nav-list > .active > a:hover, .nav-list > .active > a:focus {
+  background-color: #656565;
+}
+
+/* line 137, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+.feature-block h2, .feature-block h3 {
+  margin-top: .5em;
+}
+
+/* line 144, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+.news-sidebar h2 {
+  margin-top: 0em;
+}
+
+@media (min-width: 768px) {
+  /* line 151, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+  .release-bottons {
+    margin-bottom: 2em;
+  }
+}
+@media (max-width: 767px) {
+  /* line 157, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+  .release-buttons {
+    margin-bottom: 1em;
+    margin-top: 1em;
+  }
+}
+@media (max-width: 470px) {
+  /* line 165, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+  .hero-unit h1 {
+    font-size: 2em;
+  }
+}
+@media (max-width: 365px) {
+  /* line 172, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+  .hero-unit {
+    padding: 25px 30px;
+  }
+  /* line 174, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+  .hero-unit h1 {
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 270px) {
+  /* line 181, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+  .hero-unit {
+    padding: 25px 30px;
+  }
+  /* line 183, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+  .hero-unit h1 {
+    font-size: 1em;
+  }
+}
+/* line 191, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+footer.container {
+  padding-top: .3em;
+  padding-bottom: .3em;
+  font-size: 90%;
+  line-height: 80%;
+}
+/* line 197, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+footer.container h4 {
+  font-size: 110%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+/* line 202, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+footer.container ul {
+  margin-left: 0;
+}
+/* line 205, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+footer.container li {
+  line-height: 120%;
+}
+
+/* line 214, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+#toc {
+  background-color: #efefef;
+  padding: 1em;
+}
+/* line 217, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+#toc > ol {
+  margin: .5em 0 .5em .5em;
+}
+/* line 220, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+#toc ol {
+  list-style-type: none;
+}
+/* line 223, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+#toc a {
+  text-decoration: none;
+}
+
+@media (min-width: 980px) {
+  /* line 229, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+  #toc {
+    width: 30%;
+    position: static;
+    top: 0px;
+    float: right;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+  }
+}
+@media (max-width: 979px) {
+  /* line 241, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+  #toc {
+    margin: 1em;
+  }
+}
+/* line 247, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+#toctitle {
+  padding-left: 3%;
+  margin-bottom: 1em;
+  font-size: 120%;
+}
+
+/* line 253, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+.sectlevel1 {
+  font-size: 85%;
+}
+/* line 256, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+.sectlevel1 li {
+  margin-left: 0;
+  margin-right: 10%;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+/* line 262, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+.sectlevel1 code {
+  font-size: 100%;
+}
+
+/* line 267, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+.sectlevel2 {
+  font-size: 90%;
+}
+
+/* line 272, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+.sectlevel3 {
+  font-size: 90%;
+}
+
+/* line 280, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+#preamble {
+  font-size: 130%;
+}
+
+/* line 287, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+.admonitionblock > table {
+  border: 0;
+  margin-bottom: 1.25em;
+  background: none;
+}
+/* line 292, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+.admonitionblock > table td.icon {
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  width: 80px;
+}
+/* line 297, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+.admonitionblock > table td.icon img {
+  max-width: none;
+}
+/* line 302, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+.admonitionblock > table td.content {
+  padding-left: 2em;
+  border-left: 1px solid #dddddd;
+  color: #6f6f6f;
+}
+/* line 309, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+.admonitionblock > table td.content > div:last-child p, .admonitionblock > table td.content > div:last-child ol, .admonitionblock > table td.content > div:last-child ul, .admonitionblock > table td.content > div:last-child dl, .admonitionblock > table td.content > div:last-child dl dd:last-child {
+  margin-bottom: 0;
+}
+
+/* line 318, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/styles.scss */
+.listingblock > .title {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1em;
+  padding-top: .5em;
+  margin-bottom: -.5em;
+  border-width: 1px 0 0 0;
+  border-color: #dddddd;
+  text-align: center;
+  border-style: solid;
+}
+
+/* line 6, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/_awesome-icons.scss */
+.admonitionblock td.icon [class^="icon-"]:before {
+  font-size: 2.5em;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  cursor: default;
+}
+/* line 12, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/_awesome-icons.scss */
+.admonitionblock td.icon .icon-note:before {
+  content: "\f05a";
+  color: #005498;
+  color: #003f72;
+}
+/* line 24, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/_awesome-icons.scss */
+.admonitionblock td.icon .icon-tip:before {
+  content: "\f0eb";
+  text-shadow: 1px 1px 2px rgba(155, 155, 0, 0.8);
+  color: #111;
+}
+/* line 37, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/_awesome-icons.scss */
+.admonitionblock td.icon .icon-warning:before {
+  content: "\f071";
+  color: #bf6900;
+}
+/* line 43, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/_awesome-icons.scss */
+.admonitionblock td.icon .icon-caution:before {
+  content: "\f06d";
+  color: #bf3400;
+}
+/* line 49, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/_awesome-icons.scss */
+.admonitionblock td.icon .icon-important:before {
+  content: "\f06a";
+  color: #bf0000;
+}
+
+/* line 58, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/_awesome-icons.scss */
+.conum {
+  display: inline-block;
+  color: white !important;
+  background-color: #222222;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 20px;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  position: relative;
+  top: -2px;
+  letter-spacing: -1px;
+}
+/* line 75, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/_awesome-icons.scss */
+.conum * {
+  color: white !important;
+}
+/* line 80, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/_awesome-icons.scss */
+.conum:empty {
+  display: none;
+}
+
+/* line 85, /Users/emmanuel/Code/hibernate/website/hibernate.org/stylesheets/_awesome-icons.scss */
+pre .comment .conum {
+  left: -20px;
+}
